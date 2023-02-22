@@ -1,0 +1,13 @@
+{
+  "name": "route_test_fn",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/block-test-org/route_test_fn",
+    "ssh": "git@github.com:block-test-org/route_test_fn.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
